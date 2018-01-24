@@ -1,0 +1,217 @@
+html, body{
+	color: white;
+	background: #00536D;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	background-color: #CDDC39;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.page-wrapper{
+	background: #394042 url(header.jpg) repeat-y;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 770px;
+	position: relative;
+}
+
+.wrapper{
+	background: rgba(54, 25, 25, .5);
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.design-archives, .zen-resources{
+	background: rgba(54, 25, 25, .5);
+	margin-top: 26px;
+	padding-bottom: 15px;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	height: 366px;
+}
+
+header h2{
+	background: #394042;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 55px;
+	width: auto;
+	height: 30px;
+}
+
+.summary{
+	background-color: #394042;
+	text-align: left;
+	position: relative;
+	top: -300px;
+	width: auto;
+	height: auto;
+}
+
+.summary p{
+	font-style: italic;
+	font-weight: bold;
+	padding-right: 22px;
+	padding-left: 22px;
+
+}
+
+h1, h2 { 
+	display: none; 
+}
+
+.preamble h3{
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	height: 48px;
+}
+
+.explanation h3{
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	height: 48px;
+}
+
+.participation h3{
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	height: 48px;
+}
+
+.benefits h3{
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	height: 48px;
+}
+
+.requirements h3{
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	height: 48px;
+}
+
+.preamble,  .supporting{
+	background-color: rgba(57, 64, 66, 0.8);
+	text-align: left;
+	position: relative;
+	width: 69%;
+	right: -210px;
+	padding: 10px;
+	top: -300px;
+}
+
+.preamble > h3 {
+	color: #CDDC39;
+	font-size: 30px;
+}
+
+.supporting > div > h3{
+	color: #CDDC39;
+	font-size: 30px;
+}
+
+.sidebar{
+	position: absolute;
+	top: 155px;
+	left: -30px;
+	width: 229px;
+	overflow: hidden;
+	clear: all;
+}
+
+.sidebar .wrapper{
+	text-align: left;
+	position: relative;
+	left: 38px;
+	width: 191px;
+}
+
+.sidebar h3.select{
+	position: relative;
+	right: 38px;
+}
+
+.sidebar h3.select{
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-left: 70px;
+	height: 28px;
+}
+
+.sidebar h3.archives, .sidebar h3.resources {
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-left: 35px;
+	height: 28px;
+}
+
+.sidebar ul{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar li{
+	font-size: 11px;
+	line-height: 11px;
+	list-style-type: none;
+	display: block;
+	margin: 0 0 0 14px;
+	padding: 0 0 0 20px;
+	height: auto;
+}
+
+.sidebar li a{
+	color: #feffff;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: none;
+	background: transparent;
+	display: block;
+	padding: 9px 0 0 0;
+	width: auto;
+}
+
+.sidebar li a:hover{
+	color: #ffae00;
+	text-decoration: underline;
+}
+
+.sidebar li a.designer-name:link, .sidebar li a.designer-name:visited{
+	color: #ffae00;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 15px;
+	display: inline;
+}
+
+.sidebar .design-archives li a, .sidebar .zen-resources li a{
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
